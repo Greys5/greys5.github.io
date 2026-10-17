@@ -1,11 +1,19 @@
-# Greys — personal portfolio
+# Greys / engineering workbench
 
-A minimal static portfolio about platform engineering, automation, and security.
+Personal site about platform engineering, automation, security, and creative coding.
 
-Published at https://greys5.github.io through GitHub Pages, from the main branch root.
+Live: https://greys5.github.io
 
-## Local preview
+## Run locally
 
-Run `python3 -m http.server 8080` in this directory and visit http://localhost:8080.
+```sh
+python3 -m http.server 8080
+```
 
-HTML, CSS, and a small creative interaction. No build step or runtime dependencies. Google Fonts is optional; system fonts are used as fallbacks.
+Open http://localhost:8080. No build step, packages, external fonts, or API keys.
+
+- `index.html`: accessible page content and high-level project notes.
+- `style.css`: responsive graphite/lime workbench and reduced-motion support.
+- `script.js`: system-map inspector and project filters; page content remains available without JavaScript.
+
+GitHub Pages publishes the main branch root. Work notes intentionally omit internal names, endpoints, confidential code, and numerical outcome claims.
