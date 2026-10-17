@@ -17,3 +17,7 @@ Open http://localhost:8080. No build step, packages, external fonts, or API keys
 - `script.js`: system-map inspector and project filters; page content remains available without JavaScript.
 
 GitHub Pages publishes the main branch root. Work notes intentionally omit internal names, endpoints, confidential code, and numerical outcome claims.
+
+## Asset caching
+
+The HTML versions CSS, JavaScript, and favicon URLs with their SHA-256 content hash (first 12 characters). When changing one of these files, update its `?v=` value in `index.html` to prevent browsers from mixing releases during GitHub Pages caching.
