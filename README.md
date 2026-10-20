@@ -25,7 +25,7 @@ CSS, JavaScript, and favicon URLs use a SHA-256 content hash (first 12 character
 
 ## Languages
 
-The header EN/ES switch translates visible copy, questions, accessibility labels, title, and description. English is the default; an explicit choice is remembered locally when storage is available. Spanish uses Argentine voseo. With JavaScript disabled, the English page remains readable and the switch is hidden.
+The header EN/ES switch translates visible copy, questions, accessibility labels, title, and description. English is the default; an explicit choice is remembered locally when storage is available. Spanish uses neutral phrasing without Argentine voseo. With JavaScript disabled, the English page remains readable and the switch is hidden.
 
 ## DevOps diagram attribution
 

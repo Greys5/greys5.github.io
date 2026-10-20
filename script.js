@@ -25,11 +25,11 @@ const translations = {
   },
   "t6": {
     "en": "Wait. Why?",
-    "es": "Pará. ¿Por qué?"
+    "es": "Espera. ¿Por qué?"
   },
   "t7": {
     "en": "Let me check.",
-    "es": "Dejame ver."
+    "es": "Déjame ver."
   },
   "t8": {
     "en": "Hi, I’m",
@@ -41,7 +41,7 @@ const translations = {
   },
   "t10": {
     "en": "Here you’ll find what I work on, what I’m trying,",
-    "es": "Acá está lo que hago, lo que voy probando"
+    "es": "Aquí está lo que hago, lo que voy probando"
   },
   "t11": {
     "en": "and the things I still want to figure out.",
@@ -49,7 +49,7 @@ const translations = {
   },
   "t12": {
     "en": "Have a look",
-    "es": "Pasá a ver"
+    "es": "Pasa a ver"
   },
   "t13": {
     "en": "Probably already thinking about automating this.",
@@ -161,7 +161,7 @@ const translations = {
   },
   "t47": {
     "en": "Kubernetes makes more sense when you can try things. A learning project with browser simulations and CLI exercises, built around understanding what actually happens.",
-    "es": "Kubernetes se entiende mejor cuando podés probar cosas. Un proyecto de aprendizaje con simulaciones en el navegador y ejercicios de CLI, pensado para entender qué pasa de verdad."
+    "es": "Kubernetes se entiende mejor cuando puedes probar cosas. Un proyecto de aprendizaje con simulaciones en el navegador y ejercicios de CLI, pensado para entender qué pasa de verdad."
   },
   "t48": {
     "en": "Browser simulations",
@@ -173,7 +173,7 @@ const translations = {
   },
   "t50": {
     "en": "How do you help someone understand a system, rather than memorize a command? Feedback on wrong and incomplete commands is part of the lesson.",
-    "es": "¿Cómo ayudás a alguien a entender un sistema y no solo a memorizar un comando? La respuesta a los comandos incorrectos o incompletos también es parte del aprendizaje."
+    "es": "¿Cómo ayudas a alguien a entender un sistema y no solo a memorizar un comando? La respuesta a los comandos incorrectos o incompletos también es parte del aprendizaje."
   },
   "t51": {
     "en": "PLATFORM / IDENTITY + SECURITY",
@@ -205,7 +205,7 @@ const translations = {
   },
   "t58": {
     "en": "Follow the signals.",
-    "es": "Seguí las señales."
+    "es": "Sigue las señales."
   },
   "t59": {
     "en": "Kubernetes operations, declarative delivery, and observability. Understanding what happens when scaling, controllers, and application behavior meet.",
@@ -233,11 +233,11 @@ const translations = {
   },
   "t65": {
     "en": "How do you make AWS spending easier to understand without changing cloud resources? Costellation brings account inventory, cost filters, tag coverage, and CSV exports into one local interface. Built on Backstage with a FastAPI backend.",
-    "es": "¿Cómo hacés más fácil entender el gasto de AWS sin modificar recursos? Costellation reúne inventario de cuentas, filtros de costos, cobertura de tags y exportaciones CSV en una interfaz local. Usa Backstage con un backend en FastAPI."
+    "es": "¿Cómo haces más fácil entender el gasto de AWS sin modificar recursos? Costellation reúne inventario de cuentas, filtros de costos, cobertura de tags y exportaciones CSV en una interfaz local. Usa Backstage con un backend en FastAPI."
   },
   "t66": {
     "en": "Platform work is described at a high level. Internal details stay internal.",
-    "es": "El trabajo en plataformas está contado a grandes rasgos. Los detalles internos quedan adentro."
+    "es": "El trabajo en plataformas está contado a grandes rasgos. Los detalles internos se mantienen privados."
   },
   "t67": {
     "en": "03 / A FEW FAMILIAR TOOLS",
@@ -273,7 +273,7 @@ const translations = {
   },
   "t75": {
     "en": "I’LL WRITE SOMETHING HERE",
-    "es": "ACÁ VOY A ESCRIBIR ALGO"
+    "es": "AQUÍ VOY A ESCRIBIR ALGO"
   },
   "t76": {
     "en": "Things I want",
@@ -285,7 +285,7 @@ const translations = {
   },
   "t78": {
     "en": "There’s no post yet. This will be where I write about things I try, things that break, and whatever I learn along the way.",
-    "es": "Todavía no hay ninguna entrada. Acá voy a contar cosas que pruebo, cosas que se rompen y lo que voy aprendiendo en el medio."
+    "es": "Todavía no hay ninguna entrada. Aquí voy a contar cosas que pruebo, cosas que se rompen y lo que voy aprendiendo en el medio."
   },
   "t79": {
     "en": "First entry coming soon",
@@ -305,7 +305,7 @@ const translations = {
   },
   "t84": {
     "en": "Find me on GitHub",
-    "es": "Encontrame en GitHub"
+    "es": "Encuéntrame en GitHub"
   },
   "t85": {
     "en": "MADE IN ARGENTINA. STILL FIGURING THINGS OUT.",
@@ -329,11 +329,11 @@ const translations = {
   },
   "loopAsk": {
     "en": "Wait. Why?",
-    "es": "Pará. ¿Por qué?"
+    "es": "Espera. ¿Por qué?"
   },
   "loopInvestigate": {
     "en": "Let me check.",
-    "es": "Dejame ver."
+    "es": "Déjame ver."
   },
   "loopConnect": {
     "en": "Now it makes sense.",
@@ -383,7 +383,7 @@ const translatedAttributes = {
   "character": {
     "attr": "alt",
     "en": "Flat illustrated Greys with dark hair and glasses, sitting cross-legged with a laptop and one finger raised.",
-    "es": "Ilustración de Greys con pelo oscuro y anteojos, sentada con las piernas cruzadas, una laptop y un dedo levantado."
+    "es": "Ilustración de Greys con pelo oscuro y lentes, sentada con las piernas cruzadas, una laptop y un dedo levantado."
   },
   "notes": {
     "attr": "aria-label",
@@ -404,7 +404,7 @@ const metadata = {
     targetLanguage: 'es',
   },
   es: {
-    title: 'Greys — pará, ¿por qué?',
+    title: 'Greys — espera, ¿por qué?',
     description: 'Greys — platform engineer y mente curiosa. Un rincón personal para los sistemas, la automatización, la seguridad y las preguntas que llevan a algo interesante.',
     switchLabel: 'Inglés — cambiar la página a inglés',
     targetLabel: 'Inglés',
