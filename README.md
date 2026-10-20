@@ -30,3 +30,7 @@ The header EN/ES switch translates visible copy, questions, accessibility labels
 ## DevOps diagram attribution
 
 `assets/devops-toolchain.svg` is **Devops-toolchain.svg** by **Kharnagy**, sourced from https://commons.wikimedia.org/wiki/File:Devops-toolchain.svg under **CC BY-SA 4.0**: https://creativecommons.org/licenses/by-sa/4.0/. The source SVG is unchanged. A separate SVG cross-out is displayed over it. This composite diagram is also made available under CC BY-SA 4.0; this attribution does not claim endorsement by the original author.
+
+## Language-switch Easter egg
+
+An explicit switch into Spanish shows a 210px JLo “mi gente latino” still-image popup for 3.5 seconds. Switching back, resizing, Escape, or the close button dismisses it. Restoring a saved language does not show it. The source is [Tenor’s Jlo Mi meme](https://tenor.com/view/jlo-mi-gente-latino-latina-gif-18597397); the downloaded thumbnail is a single-frame GIF, hosted locally with no audio or third-party runtime request.

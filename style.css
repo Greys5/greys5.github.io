@@ -319,3 +319,19 @@ html[lang="es"] .scene-stamp { font-size: 10px; }
 @media (max-width: 760px) {
   .footer-brand { font-size: 22px; }
 }
+
+.latino-meme {
+  position: fixed;
+  z-index: 50;
+  width: min(210px, calc(100vw - 24px));
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  box-shadow: 4px 4px 0 #28352e55;
+  padding: 7px;
+  animation: meme-arrives .18s ease-out;
+}
+.latino-meme[hidden] { display: none; }
+.meme-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 0 0 5px 2px; font: 8px var(--mono); }
+.meme-bar button { border: 0; background: transparent; width: 28px; height: 28px; font: 21px/1 var(--sans); padding: 0; }
+.latino-meme img { width: 100%; height: auto; display: block; }
+@keyframes meme-arrives { from { opacity: 0; transform: translateY(-5px) rotate(-2deg); } to { opacity: 1; transform: none; } }

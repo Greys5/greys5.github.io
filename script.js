@@ -416,6 +416,35 @@ let questionIndex = 0;
 const question = document.querySelector('#curiosity-question');
 const nextQuestion = document.querySelector('#new-question');
 const languageSwitch = document.querySelector('#language-switch');
+const memePopup = document.querySelector('#latino-meme');
+const dismissMemeButton = document.querySelector('#dismiss-meme');
+let memeTimer;
+
+function dismissMeme() {
+  clearTimeout(memeTimer);
+  if (memePopup.contains(document.activeElement)) {
+    languageSwitch.focus({ preventScroll: true });
+  }
+  memePopup.hidden = true;
+}
+
+function showLatinoMeme() {
+  clearTimeout(memeTimer);
+  memePopup.hidden = false;
+  const anchor = languageSwitch.getBoundingClientRect();
+  const left = Math.max(12, Math.min(anchor.right - memePopup.offsetWidth, window.innerWidth - memePopup.offsetWidth - 12));
+  const top = Math.max(12, Math.min(anchor.bottom + 12, window.innerHeight - memePopup.offsetHeight - 12));
+  memePopup.style.left = `${left}px`;
+  memePopup.style.top = `${top}px`;
+  memeTimer = setTimeout(dismissMeme, 3500);
+}
+
+dismissMemeButton.addEventListener('click', dismissMeme);
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && !memePopup.hidden) dismissMeme();
+});
+window.addEventListener('resize', dismissMeme);
+
 
 function setLanguage(nextLanguage) {
   language = nextLanguage === 'es' ? 'es' : 'en';
@@ -444,6 +473,8 @@ nextQuestion.addEventListener('click', () => {
 });
 languageSwitch.addEventListener('click', () => {
   setLanguage(language === 'en' ? 'es' : 'en');
+  if (language === 'es') showLatinoMeme();
+  else dismissMeme();
   try {
     localStorage.setItem('greys-language', language);
   } catch {
