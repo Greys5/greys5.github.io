@@ -245,3 +245,61 @@ html[lang="es"] .scene-stamp { font-size: 10px; }
   html[lang="es"] h1 { font-size: clamp(41px, 8.5vw, 62px); }
   html[lang="es"] .scene-stamp { font-size: 8px; }
 }
+
+/* A familiar delivery loop, crossed out beside the personal version. */
+.brain-card { padding: 24px; }
+.brain-card h3 { margin-bottom: 18px; }
+.loop-eyebrow { font: bold 9px var(--mono); letter-spacing: .8px; }
+.classic-loop { position: relative; border-bottom: 1px dashed #b6b095; padding-bottom: 14px; color: #68685c; }
+.classic-loop svg { display: block; width: 100%; height: 85px; }
+.classic-loop svg path { fill: none; stroke: #8a8b77; stroke-width: 3; }
+.classic-loop svg .cross-out { stroke: var(--rust); stroke-width: 4; }
+.classic-loop p { text-align: center; font: 8px/1.7 var(--mono); margin: 0; }
+.personal-loop { position: relative; margin-top: 17px; height: 228px; }
+.personal-loop > .loop-eyebrow { color: var(--teal); }
+.personal-loop svg { position: absolute; width: 100%; height: 175px; top: 28px; left: 0; }
+.mine-track { fill: none; stroke: var(--teal); stroke-width: 2; }
+.loop-traveler { fill: none; stroke: var(--rust); stroke-width: 7; stroke-linecap: round; stroke-dasharray: 1 999; animation: thinking-loop 12s linear infinite; }
+@keyframes thinking-loop { to { stroke-dashoffset: -1000; } }
+.loop-step { position: absolute; padding: 7px 8px; border: 1px solid var(--teal); color: var(--teal); background: #faf6ea; font: 10px/1.4 var(--mono); max-width: 47%; text-align: center; box-shadow: 2px 2px 0 #c4b99a; }
+.step-ask { left: 1%; top: 34px; transform: rotate(-3deg); }
+.step-check { right: 0; top: 34px; transform: rotate(2deg); }
+.step-connect { right: 0; bottom: 5px; transform: rotate(-2deg); }
+.step-automate { left: 0; bottom: 5px; background: var(--mustard); color: var(--ink); transform: rotate(2deg); }
+.loop-center { position: absolute; top: 89px; left: 47%; font: bold 30px var(--serif); color: var(--rust); background: #e7dfc6; }
+.loop-again { font: italic 14px/1.6 var(--serif); color: var(--rust); text-align: right; margin-bottom: 0; }
+.character { mix-blend-mode: normal; }
+@media (max-width: 760px) {
+  .brain-card { padding: 20px; }
+  .personal-loop { height: 235px; }
+  .loop-step { font-size: 9px; }
+  html[lang="es"] h1 { font-size: clamp(43px, 9.5vw, 68px); }
+}
+
+/* The seated cutout needs a wider frame than the original standing portrait. */
+.character-scene { height: 545px; }
+.character { width: min(100%, 440px); right: 0; bottom: 15px; }
+.speech-bubble { top: 10px; left: -10px; width: 235px; }
+.scene-stamp { top: 0; }
+.character-arrow { display: none; }
+.character-label { right: 0; bottom: 0; }
+@media (max-width: 1100px) and (min-width: 761px) {
+  .character-scene { height: 520px; }
+  .character { width: 100%; bottom: 35px; }
+  .speech-bubble { width: 195px; top: 20px; left: 0; }
+}
+@media (max-width: 760px) {
+  .character-scene { height: 435px; }
+  .character { width: min(100%, 320px); bottom: 10px; }
+  .speech-bubble { top: 20px; left: 0; width: 172px; }
+  .scene-stamp { top: 0; right: 0; }
+  .character-label { bottom: 0; right: 0; }
+}
+/* Keep the steps in the same order as the moving marker. */
+.step-check { left: 0; right: auto; top: auto; bottom: 5px; }
+.step-connect { right: 0; top: 34px; bottom: auto; }
+.step-automate { left: auto; right: 0; bottom: 5px; }
+@media (max-width: 760px) {
+  .character-scene { height: 520px; }
+  .speech-bubble { top: 5px; }
+}

@@ -4,8 +4,8 @@ const translations = {
     "es": "Saltar al contenido"
   },
   "t1": {
-    "en": "A CURIOUS CORNER OF THE INTERNET",
-    "es": "UN RINCÓN PARA MENTES CURIOSAS"
+    "en": "PLATFORMS, QUESTIONS & OTHER STUFF",
+    "es": "PLATAFORMAS, PREGUNTAS Y OTRAS COSAS"
   },
   "t2": {
     "en": "the human",
@@ -20,68 +20,68 @@ const translations = {
     "es": "el blog"
   },
   "t5": {
-    "en": "FOR MINDS THAT KEEP ASKING “WHY?”",
-    "es": "PARA MENTES QUE SIGUEN PREGUNTANDO «¿POR QUÉ?»"
+    "en": "IF YOU ALSO ASK TOO MANY QUESTIONS, HI.",
+    "es": "SI VOS TAMBIÉN PREGUNTÁS DE TODO, HOLA."
   },
   "t6": {
-    "en": "Stay curious.",
-    "es": "Seguí preguntando."
+    "en": "Wait. Why?",
+    "es": "Pará. ¿Por qué?"
   },
   "t7": {
-    "en": "Pull a thread.",
-    "es": "Tirá del hilo."
+    "en": "Let me check.",
+    "es": "Dejame ver."
   },
   "t8": {
     "en": "Hi, I’m",
     "es": "Hola, soy"
   },
   "t9": {
-    "en": "Platform engineer, chronic question-asker, and a firm believer that “we’ve always done it this way” needs a follow-up question.",
-    "es": "Platform engineer, preguntona por naturaleza y convencida de que «siempre se hizo así» merece otra pregunta."
+    "en": "I build platforms, automate stuff, and ask a lot of questions. Especially when the answer is “we’ve always done it this way.”",
+    "es": "Armo plataformas, automatizo cosas y hago bastantes preguntas. Sobre todo cuando la respuesta es «siempre se hizo así»."
   },
   "t10": {
-    "en": "This is my little corner for systems, things I build,",
-    "es": "Este es mi rincón para los sistemas, las cosas que construyo"
+    "en": "Here you’ll find what I work on, what I’m trying,",
+    "es": "Acá está lo que hago, lo que voy probando"
   },
   "t11": {
-    "en": "and the occasional technical rabbit hole.",
-    "es": "y alguna que otra exploración técnica."
+    "en": "and the things I still want to figure out.",
+    "es": "y las cosas que todavía quiero entender."
   },
   "t12": {
-    "en": "Come on in",
-    "es": "Pasá, estás en casa"
+    "en": "Have a look",
+    "es": "Pasá a ver"
   },
   "t13": {
-    "en": "A person first. A stack of tools second.",
-    "es": "Primero, una persona. Después, las herramientas."
+    "en": "Probably already thinking about automating this.",
+    "es": "Seguramente ya estoy pensando cómo automatizar esto."
   },
   "t14": {
-    "en": "INDEPENDENT",
-    "es": "PENSAMIENTO"
+    "en": "WAIT.",
+    "es": "PARÁ."
   },
   "t15": {
-    "en": "THINKING",
-    "es": "INDEPENDIENTE"
+    "en": "WHY DOES",
+    "es": "¿POR QUÉ"
   },
   "t16": {
-    "en": "ENCOURAGED ↗",
-    "es": "BIENVENIDO ↗"
+    "en": "THAT WORK? ↗",
+    "es": "FUNCIONA? ↗"
   },
   "t17": {
-    "en": "A QUESTION TO TAKE WITH YOU",
-    "es": "UNA PREGUNTA PARA LLEVARTE"
+    "en": "CURRENT THOUGHT",
+    "es": "PENSAMIENTO ACTUAL"
   },
   "t18": {
-    "en": "another rabbit hole",
+    "en": "another question",
     "es": "otra pregunta"
   },
   "t19": {
-    "en": "THAT’S ME.",
-    "es": "ESA SOY YO."
+    "en": "YEP, THAT’S ME.",
+    "es": "SÍ, SOY YO."
   },
   "t20": {
-    "en": "PROBABLY ASKING WHY.",
-    "es": "SEGURO PREGUNTANDO POR QUÉ."
+    "en": "ONE MORE QUESTION.",
+    "es": "UNA PREGUNTA MÁS."
   },
   "t21": {
     "en": "PLATFORM ENGINEERING",
@@ -96,44 +96,44 @@ const translations = {
     "es": "SEGURIDAD"
   },
   "t24": {
-    "en": "HEALTHY CURIOSITY",
-    "es": "CURIOSIDAD SANA"
+    "en": "WAIT, ONE MORE THING",
+    "es": "PARÁ, UNA COSA MÁS"
   },
   "t25": {
     "en": "01 / THE HUMAN",
     "es": "01 / LA PERSONA"
   },
   "t26": {
-    "en": "Less “trust me.”",
-    "es": "Menos «creeme»."
+    "en": "Okay, but",
+    "es": "Bueno, pero"
   },
   "t27": {
-    "en": "More",
-    "es": "Más"
+    "en": "does it",
+    "es": "¿esto"
   },
   "t28": {
-    "en": "“let’s find out.”",
-    "es": "«vamos a averiguarlo»."
+    "en": "actually work?",
+    "es": "funciona de verdad?"
   },
   "t29": {
-    "en": "I’m a platform engineer based in Argentina. I work with cloud infrastructure, Kubernetes, automation, identity, and security.",
-    "es": "Soy platform engineer y vivo en Argentina. Trabajo con infraestructura cloud, Kubernetes, automatización, identidad y seguridad."
+    "en": "I’m a platform engineer in Argentina. My work is mostly cloud infrastructure, Kubernetes, automation, identity, and security.",
+    "es": "Soy platform engineer y vivo en Argentina. Trabajo principalmente con infraestructura cloud, Kubernetes, automatización, identidad y seguridad."
   },
   "t30": {
-    "en": "I like understanding how the pieces fit together. If something breaks, I want the reason. If a task keeps coming back, I want a better way to do it. And if a default doesn’t make sense, I’m going to question it.",
-    "es": "Me gusta entender cómo encajan las piezas. Si algo se rompe, quiero saber por qué. Si una tarea se repite, quiero encontrar una mejor forma de hacerla. Y si una configuración por defecto no tiene sentido, la voy a cuestionar."
+    "en": "I like getting into how things work. If something breaks, I want to know why. If I’m doing the same thing again, I’m already wondering whether I can automate it. And “that’s the default” isn’t much of an explanation.",
+    "es": "Me gusta meterme a entender cómo funcionan las cosas. Si algo se rompe, quiero saber por qué. Si estoy haciendo lo mismo otra vez, ya estoy pensando si lo puedo automatizar. Y «viene así por defecto» no me explica mucho."
   },
   "t31": {
-    "en": "Outside infrastructure, that same curiosity turns into creative coding, interactive visuals, and learning projects. Different rabbit holes. Same brain.",
-    "es": "Fuera de la infraestructura, esa misma curiosidad se convierte en código creativo, visuales interactivos y proyectos para aprender. Distintas exploraciones. La misma cabeza."
+    "en": "I also make things to learn, play with creative coding, and see what happens when I connect ideas that don’t obviously belong together.",
+    "es": "También hago cosas para aprender, juego con código creativo y pruebo qué pasa cuando conecto ideas que en principio no tienen mucho que ver."
   },
   "t32": {
-    "en": "A few things I’ve been into",
-    "es": "Algunas cosas en las que me metí"
+    "en": "Some things I’ve worked on",
+    "es": "Algunas cosas en las que estuve trabajando"
   },
   "t33": {
-    "en": "PERSONAL FIELD NOTES",
-    "es": "NOTAS PERSONALES"
+    "en": "MY CI/CD, APPARENTLY",
+    "es": "MI CI/CD, APARENTEMENTE"
   },
   "t34": {
     "en": "How my brain works",
@@ -164,20 +164,20 @@ const translations = {
     "es": "02 / COSAS EN LAS QUE ME METO"
   },
   "t41": {
-    "en": "Interesting problems.",
-    "es": "Problemas interesantes."
+    "en": "Things I got into.",
+    "es": "Cosas en las que me metí."
   },
   "t42": {
-    "en": "Occasionally, projects.",
-    "es": "A veces, proyectos."
+    "en": "Some became projects.",
+    "es": "Algunas terminaron en proyectos."
   },
   "t43": {
-    "en": "Some personal projects. Some platform work.",
-    "es": "Algunos proyectos personales. Algo de trabajo en plataformas."
+    "en": "Personal projects and platform work.",
+    "es": "Proyectos personales y trabajo en plataformas."
   },
   "t44": {
-    "en": "The useful part is the question behind each one.",
-    "es": "Lo interesante es la pregunta detrás de cada uno."
+    "en": "What I did, and what I was trying to understand.",
+    "es": "Lo que hice y lo que quería entender."
   },
   "t45": {
     "en": "PERSONAL / LEARNING",
@@ -272,12 +272,12 @@ const translations = {
     "es": "03 / ALGUNAS HERRAMIENTAS CONOCIDAS"
   },
   "t68": {
-    "en": "The toolbox.",
-    "es": "Las herramientas."
+    "en": "What I work with.",
+    "es": "Con qué trabajo."
   },
   "t69": {
-    "en": "Always a means.",
-    "es": "Siempre un medio."
+    "en": "Depends on the problem.",
+    "es": "Depende del problema."
   },
   "t70": {
     "en": "BUILD & RUN",
@@ -300,20 +300,20 @@ const translations = {
     "es": "04 / EL BLOG"
   },
   "t75": {
-    "en": "A SPACE FOR THE QUESTIONS THAT STICK",
-    "es": "UN ESPACIO PARA LAS PREGUNTAS QUE QUEDAN"
+    "en": "I’LL WRITE SOMETHING HERE",
+    "es": "ACÁ VOY A ESCRIBIR ALGO"
   },
   "t76": {
-    "en": "Notes from",
-    "es": "Notas de"
+    "en": "Things I want",
+    "es": "Cosas que quiero"
   },
   "t77": {
-    "en": "the rabbit hole.",
-    "es": "mis exploraciones."
+    "en": "to write about.",
+    "es": "contar."
   },
   "t78": {
-    "en": "There’ll be writing here. About systems, things I learn, and questions worth following a little further.",
-    "es": "Acá voy a escribir. Sobre sistemas, cosas que aprendo y preguntas que merecen un poco más de recorrido."
+    "en": "There’s no post yet. This will be where I write about things I try, things that break, and whatever I learn along the way.",
+    "es": "Todavía no hay ninguna entrada. Acá voy a contar cosas que pruebo, cosas que se rompen y lo que voy aprendiendo en el medio."
   },
   "t79": {
     "en": "First entry coming soon",
@@ -328,24 +328,60 @@ const translations = {
     "es": "EN ESO."
   },
   "t82": {
-    "en": "You don’t have to know everything.",
-    "es": "No hace falta saberlo todo."
+    "en": "Anyway. That’s me.",
+    "es": "En fin. Esa soy yo."
   },
   "t83": {
-    "en": "Just keep asking better questions.",
-    "es": "Seguí haciendo mejores preguntas."
+    "en": "Probably with another question.",
+    "es": "Seguramente con otra pregunta."
   },
   "t84": {
     "en": "Find me on GitHub",
     "es": "Encontrame en GitHub"
   },
   "t85": {
-    "en": "FROM ARGENTINA. FOR CURIOUS MINDS.",
-    "es": "DESDE ARGENTINA. PARA MENTES CURIOSAS."
+    "en": "MADE IN ARGENTINA. STILL FIGURING THINGS OUT.",
+    "es": "HECHO EN ARGENTINA. TODAVÍA AVERIGUANDO COSAS."
   },
   "t86": {
-    "en": "back to the surface ↑",
-    "es": "volver a la superficie ↑"
+    "en": "back up ↑",
+    "es": "volver arriba ↑"
+  },
+  "loopHeading": {
+    "en": "How my brain works",
+    "es": "Cómo funciona mi cabeza"
+  },
+  "classicLabel": {
+    "en": "THE CLASSIC",
+    "es": "EL CLÁSICO"
+  },
+  "classicLoop": {
+    "en": "PLAN → BUILD → SHIP → REPEAT",
+    "es": "PLANEAR → HACER → PUBLICAR → REPETIR"
+  },
+  "mineLabel": {
+    "en": "MINE",
+    "es": "EL MÍO"
+  },
+  "loopAsk": {
+    "en": "Wait. Why?",
+    "es": "Pará. ¿Por qué?"
+  },
+  "loopInvestigate": {
+    "en": "Let me check.",
+    "es": "Dejame ver."
+  },
+  "loopConnect": {
+    "en": "Now it makes sense.",
+    "es": "Ahora tiene sentido."
+  },
+  "loopAutomate": {
+    "en": "Can I automate it?",
+    "es": "¿Lo puedo automatizar?"
+  },
+  "loopAgain": {
+    "en": "...and then I have another question.",
+    "es": "...y después se me ocurre otra pregunta."
   }
 };
 translations.stickerThinking = { en: "THINKING", es: "PENSANDO" };
@@ -372,8 +408,8 @@ const translatedAttributes = {
   },
   "character": {
     "attr": "alt",
-    "en": "Illustrated Greys with dark hair, glasses, a black outfit, white sneakers, and folded arms.",
-    "es": "Ilustración de Greys con pelo oscuro, anteojos, ropa negra, zapatillas blancas y los brazos cruzados."
+    "en": "Flat illustrated Greys with dark hair and glasses, sitting cross-legged with a laptop and one finger raised.",
+    "es": "Ilustración de Greys con pelo oscuro y anteojos, sentada con las piernas cruzadas, una laptop y un dedo levantado."
   },
   "notes": {
     "attr": "aria-label",
@@ -382,29 +418,17 @@ const translatedAttributes = {
   }
 };
 const questions = {
-  en: [
-    'Does it work, or does it just look green?',
-    'What are we assuming here?',
-    'Could the next time take fewer steps?',
-    'What happens if we connect these two things?',
-    'What would actually prove this works?',
-  ],
-  es: [
-    '¿Funciona o solo parece estar todo en verde?',
-    '¿Qué estamos dando por sentado?',
-    '¿La próxima vez podría llevar menos pasos?',
-    '¿Qué pasa si conectamos estas dos cosas?',
-    '¿Qué demostraría que esto funciona de verdad?',
-  ],
+  en: ['Can I automate this?', 'Okay, but why?', 'What do the logs say?', 'Are we sure, or are we guessing?', 'What happens if I try this?'],
+  es: ['¿Esto lo puedo automatizar?', 'Bueno, pero ¿por qué?', '¿Qué dicen los logs?', '¿Lo sabemos o lo estamos suponiendo?', '¿Y si pruebo esto?'],
 };
 const metadata = {
   en: {
-    title: 'Greys — stay curious, pull a thread.',
+    title: 'Greys — wait, why?',
     description: 'Greys — platform engineer, curious mind. A personal corner for systems, automation, security, and the questions that lead somewhere interesting.',
     switchLabel: 'Switch page to Spanish',
   },
   es: {
-    title: 'Greys — seguí preguntando, tirá del hilo.',
+    title: 'Greys — pará, ¿por qué?',
     description: 'Greys — platform engineer y mente curiosa. Un rincón personal para los sistemas, la automatización, la seguridad y las preguntas que llevan a algo interesante.',
     switchLabel: 'Cambiar la página a inglés',
   },

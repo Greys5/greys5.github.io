@@ -15,7 +15,7 @@ Open http://localhost:8080. No build step, packages, external fonts, or API keys
 - `index.html`: profile, project notes, toolbox, and clearly labeled blog placeholder.
 - `style.css`: responsive retro paper/teal/terracotta design with reduced-motion support.
 - `script.js`: cycles the character’s curious questions; all content remains readable without JavaScript.
-- `assets/greys-character.png`: the character image supplied by Greys, used as-is.
+- `assets/greys-character-flat.png`: a new transparent character illustration based on Greys’s supplied reference. The original is retained as `assets/greys-character.png`.
 
 GitHub Pages publishes the main branch root. Work notes omit internal names, endpoints, confidential code, and numerical outcome claims. No blog posts have been published yet.
 
