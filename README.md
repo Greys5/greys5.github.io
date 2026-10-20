@@ -26,3 +26,7 @@ CSS, JavaScript, and favicon URLs use a SHA-256 content hash (first 12 character
 ## Languages
 
 The header EN/ES switch translates visible copy, questions, accessibility labels, title, and description. English is the default; an explicit choice is remembered locally when storage is available. Spanish uses Argentine voseo. With JavaScript disabled, the English page remains readable and the switch is hidden.
+
+## DevOps diagram attribution
+
+`assets/devops-toolchain.svg` is **Devops-toolchain.svg** by **Kharnagy**, sourced from https://commons.wikimedia.org/wiki/File:Devops-toolchain.svg under **CC BY-SA 4.0**: https://creativecommons.org/licenses/by-sa/4.0/. The source SVG is unchanged. A separate SVG cross-out is displayed over it. This composite diagram is also made available under CC BY-SA 4.0; this attribution does not claim endorsement by the original author.

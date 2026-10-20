@@ -385,7 +385,13 @@ const translations = {
   }
 };
 translations.stickerThinking = { en: "THINKING", es: "PENSANDO" };
+translations.classicOverlay = { en: "cross-out added", es: "tachado agregado" };
 const translatedAttributes = {
+  "classicDiagram": {
+    "attr": "alt",
+    "en": "Classic DevOps infinity diagram: plan, create, verify, package, release, configure, monitor.",
+    "es": "Diagrama clásico de DevOps en forma de infinito: planificar, crear, verificar, empaquetar, liberar, configurar y monitorear."
+  },
   "home": {
     "attr": "aria-label",
     "en": "GF home",
