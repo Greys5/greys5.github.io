@@ -399,12 +399,16 @@ const metadata = {
   en: {
     title: 'Greys — wait, why?',
     description: 'Greys — platform engineer, curious mind. A personal corner for systems, automation, security, and the questions that lead somewhere interesting.',
-    switchLabel: 'Switch page to Spanish',
+    switchLabel: 'Español — switch page to Spanish',
+    targetLabel: 'Español',
+    targetLanguage: 'es',
   },
   es: {
     title: 'Greys — pará, ¿por qué?',
     description: 'Greys — platform engineer y mente curiosa. Un rincón personal para los sistemas, la automatización, la seguridad y las preguntas que llevan a algo interesante.',
-    switchLabel: 'Cambiar la página a inglés',
+    switchLabel: 'Inglés — cambiar la página a inglés',
+    targetLabel: 'Inglés',
+    targetLanguage: 'es',
   },
 };
 let language = 'en';
@@ -429,6 +433,9 @@ function setLanguage(nextLanguage) {
   languageSwitch.setAttribute('aria-pressed', String(language === 'es'));
   languageSwitch.setAttribute('aria-label', metadata[language].switchLabel);
   languageSwitch.dataset.language = language;
+  const targetLabel = languageSwitch.querySelector('.language-target');
+  targetLabel.textContent = metadata[language].targetLabel;
+  targetLabel.lang = metadata[language].targetLanguage;
 }
 
 nextQuestion.addEventListener('click', () => {
