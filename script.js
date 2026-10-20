@@ -13,15 +13,15 @@ const translations = {
   },
   "t3": {
     "en": "the projects",
-    "es": "los proyectos"
+    "es": "mis proyectos (o algo así)"
   },
   "t4": {
     "en": "the blog",
-    "es": "el blog"
+    "es": "blog"
   },
   "t5": {
-    "en": "BUILDING, FIXING, LEARNING AS I GO.",
-    "es": "ARMANDO, ARREGLANDO Y APRENDIENDO EN EL CAMINO."
+    "en": "BUILDING,",
+    "es": "CONTRUYENDO,"
   },
   "t6": {
     "en": "Wait. Why?",
@@ -36,8 +36,8 @@ const translations = {
     "es": "Hola, soy"
   },
   "t9": {
-    "en": "I build platforms and automate the repetitive stuff. I like knowing what’s going on under the hood.",
-    "es": "Armo plataformas y automatizo lo repetitivo. Me gusta entender qué está pasando por dentro."
+    "en": "I build platforms and make them easier to operate. I like knowing what’s going on under the hood.",
+    "es": "Armo plataformas y busco que sean más fáciles de operar. Me gusta entender qué está pasando por dentro."
   },
   "t10": {
     "en": "Here you’ll find what I work on, what I’m trying,",
@@ -52,8 +52,8 @@ const translations = {
     "es": "Pasa a ver"
   },
   "t13": {
-    "en": "Probably already thinking about automating this.",
-    "es": "Seguramente ya estoy pensando cómo automatizar esto."
+    "en": "Usually with a few things to fix.",
+    "es": "Normalmente con unas cuantas cosas por arreglar."
   },
   "t14": {
     "en": "WORK",
@@ -311,52 +311,16 @@ const translations = {
     "en": "02 / THE CI/CD IN MY HEAD",
     "es": "02 / EL CI/CD EN MI CABEZA"
   },
-  "stageCode": {
-    "en": "Code & automate",
-    "es": "Programar y automatizar"
-  },
-  "stageDefine": {
-    "en": "Define & package",
-    "es": "Definir y empaquetar"
-  },
-  "stageTest": {
-    "en": "Test & scan",
-    "es": "Probar y analizar"
-  },
-  "stageDeliver": {
-    "en": "Build & deliver",
-    "es": "Integrar y desplegar"
-  },
-  "stageRun": {
-    "en": "Run & orchestrate",
-    "es": "Ejecutar y orquestar"
-  },
-  "stageConnect": {
-    "en": "Connect & store",
-    "es": "Conectar y almacenar"
-  },
-  "stageProtect": {
-    "en": "Protect & observe",
-    "es": "Proteger y observar"
-  },
   "toolLifecycle": {
-    "en": "FROM CODE TO RUNNING SYSTEMS",
-    "es": "DEL CÓDIGO A LOS SISTEMAS EN MARCHA"
-  },
-  "toolCloud": {
-    "en": "CLOUD PLATFORM",
-    "es": "PLATAFORMA CLOUD"
+    "en": "MY DELIVERY CYCLE",
+    "es": "MI CICLO DE TRABAJO"
   },
   "toolNetworking": {
     "en": "Networking",
     "es": "Redes"
   },
-  "toolExplore": {
-    "en": "For experiments",
-    "es": "Para experimentar"
-  },
   "sketchLookPhase": {
-    "en": "01 / INSPECT",
+    "en": "01 / UNDERSTAND",
     "es": "01 / ENTENDER"
   },
   "sketchLook": {
@@ -364,7 +328,7 @@ const translations = {
     "es": "¿Y esto qué hace?"
   },
   "sketchTryPhase": {
-    "en": "02 / EXPERIMENT",
+    "en": "02 / TRY",
     "es": "02 / PROBAR"
   },
   "sketchTry": {
@@ -380,52 +344,80 @@ const translations = {
     "es": "¿Se rompió?"
   },
   "sketchFixPhase": {
-    "en": "04 / DEBUG",
-    "es": "04 / DEPURAR"
+    "en": "04 / ADJUST",
+    "es": "04 / AJUSTAR"
   },
   "sketchFix": {
-    "en": "Logs. Fix. Try again.",
-    "es": "Logs. Arreglar. Volver a probar."
-  },
-  "sketchAutomatePhase": {
-    "en": "05 / AUTOMATE",
-    "es": "05 / AUTOMATIZAR"
+    "en": "Logs and a few tweaks.",
+    "es": "Logs y unos ajustes."
   },
   "sketchAutomate": {
-    "en": "Can I automate it?",
-    "es": "¿Lo puedo automatizar?"
+    "en": "Worth automating?",
+    "es": "¿Vale la pena automatizarlo?"
   },
   "sketchVerifyPhase": {
-    "en": "06 / VERIFY",
-    "es": "06 / VERIFICAR"
+    "en": "05 / VERIFY",
+    "es": "05 / VERIFICAR"
   },
   "sketchVerify": {
-    "en": "Does it run without me?",
-    "es": "¿Funciona sin mí?"
-  },
-  "sketchYes": {
-    "en": "YES",
-    "es": "SÍ"
-  },
-  "sketchNo": {
-    "en": "NO",
-    "es": "NO"
-  },
-  "sketchRetry": {
-    "en": "try again ↗",
-    "es": "volver a probar ↗"
-  },
-  "sketchStill": {
-    "en": "not yet",
-    "es": "todavía no"
+    "en": "Does it work now?",
+    "es": "¿Ahora sí funciona?"
   },
   "sketchNote": {
-    "en": "Check before calling it done.",
-    "es": "Comprobar antes de darlo por terminado."
+    "en": "Try, check, tweak. Then look again.",
+    "es": "Probar, revisar, ajustar. Y volver a mirar."
   },
   "sketchDescription": {
-    "en": "If it breaks, check the logs, fix it, and retry. If it works, automate it and verify it runs without manual steps.",
-    "es": "Si se rompe, revisar los logs, arreglar y volver a probar. Si funciona, automatizar y verificar que no necesite pasos manuales."
+    "en": "A cycle of experiments, logs, and adjustments. Automation is a side route when it makes sense.",
+    "es": "Un ciclo de pruebas, logs y ajustes. Automatizar es un desvío cuando tiene sentido."
+  },
+  "heroBreaking": {
+    "en": "BREAKING THINGS,",
+    "es": "ROMPIENDO COSAS,"
+  },
+  "heroFixing": {
+    "en": "FIXING AND LEARNING AS I GO.",
+    "es": "ARREGLANDO Y APRENDIENDO EN EL CAMINO."
+  },
+  "cyclePlan": {
+    "en": "Figure out what’s needed.",
+    "es": "Entender qué hace falta."
+  },
+  "cycleBase": {
+    "en": "Put the base together.",
+    "es": "Armar la base."
+  },
+  "cycleTest": {
+    "en": "See if it holds up.",
+    "es": "Probar si aguanta."
+  },
+  "cycleShip": {
+    "en": "Get it running.",
+    "es": "Ponerlo a andar."
+  },
+  "cycleRun": {
+    "en": "Keep it running.",
+    "es": "Dejarlo corriendo."
+  },
+  "cycleWatch": {
+    "en": "Keep it safe. Watch it.",
+    "es": "Cuidarlo y mirar las señales."
+  },
+  "cycleRepeat": {
+    "en": "Review, adjust, repeat.",
+    "es": "Revisar, ajustar, repetir."
+  },
+  "sketchObservePhase": {
+    "en": "06 / OBSERVE",
+    "es": "06 / OBSERVAR"
+  },
+  "sketchObserve": {
+    "en": "Let it run. Watch it.",
+    "es": "Dejarlo corriendo y observar."
+  },
+  "sketchOptional": {
+    "en": "SOMETIMES",
+    "es": "A VECES"
   }
 };
 translations.stickerThinking = { en: "THINKING", es: "PENSANDO" };
@@ -468,8 +460,8 @@ const translatedAttributes = {
   }
 };
 const questions = {
-  en: ['Can I automate this?', 'Okay, but why?', 'What do the logs say?', 'Are we sure, or are we guessing?', 'What happens if I try this?'],
-  es: ['¿Esto lo puedo automatizar?', 'Bueno, pero ¿por qué?', '¿Qué dicen los logs?', '¿Lo sabemos o lo estamos suponiendo?', '¿Y si pruebo esto?'],
+  en: ['What do the logs say?', 'Okay, but why?', 'What happens if I try this?', 'Are we sure, or are we guessing?', 'Can I automate this?'],
+  es: ['¿Qué dicen los logs?', 'Bueno, pero ¿por qué?', '¿Y si pruebo esto?', '¿Lo sabemos o lo estamos suponiendo?', '¿Esto lo puedo automatizar?'],
 };
 const metadata = {
   en: {
