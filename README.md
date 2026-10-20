@@ -22,3 +22,7 @@ GitHub Pages publishes the main branch root. Work notes omit internal names, end
 ## Asset caching
 
 CSS, JavaScript, and favicon URLs use a SHA-256 content hash (first 12 characters) in `?v=`. Update the corresponding hash in `index.html` whenever an asset changes, so browsers do not mix releases.
+
+## Languages
+
+The header EN/ES switch translates visible copy, questions, accessibility labels, title, and description. English is the default; an explicit choice is remembered locally when storage is available. Spanish uses Argentine voseo. With JavaScript disabled, the English page remains readable and the switch is hidden.
