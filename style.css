@@ -377,3 +377,62 @@ html[lang="es"] .scene-stamp { font-size: 10px; }
   .tool-chips img { width: 23px; height: 23px; }
   .creative-tools { align-items: start; flex-direction: column; gap: 15px; }
 }
+
+/* Personal CI/CD as an ink-and-sticky-note workflow, with real retry branches. */
+.brain-card { transform: rotate(1deg); }
+.brain-card .field-card-top { font-size: 8px; }
+.brain-card h3 { font-size: 27px; margin: 24px 0; }
+.classic-loop > .loop-eyebrow { line-height: 1.7; display: block; }
+.personal-sketch { margin: 24px -9px -5px; padding: 19px 11px 16px; border: 1px solid #b9b19a; border-radius: 3px 8px 4px 7px; background: repeating-linear-gradient(transparent 0 25px,#607e8f10 25px 26px),#faf6ea; box-shadow: 2px 3px 0 #c8bea4; }
+.sketch-title { margin: 0; color: var(--teal); font: bold 11px/1.6 var(--mono); letter-spacing: .3px; border-bottom: 1px dashed var(--line); padding-bottom: 12px; }
+.thought-board { position: relative; width: 100%; aspect-ratio: 600/620; min-height: 440px; margin-top: 8px; }
+.thought-arrows { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.thought-route { stroke: var(--teal); stroke-width: 2.8; fill: none; }
+.route-debug, .route-retry, .route-return { stroke: var(--rust); }
+.route-return { stroke-width: 2; }
+.sketch-doodles { color: var(--rust); opacity: .65; }
+.thought-node { position: absolute; width: 38.33%; height: 16.13%; border: 1.5px solid var(--teal); border-radius: 4px 7px 3px 8px; padding: 9px; background: #f4eedf; box-shadow: 2px 2px 0 #b9b59d77; display: flex; flex-direction: column; justify-content: center; gap: 7px; }
+.thought-phase { font: 7px/1.3 var(--mono); color: #687060; letter-spacing: .15px; }
+.thought-node strong { font: bold 13px/1.3 var(--serif); max-width: 94%; }
+.thought-icon { position: absolute; bottom: -10px; right: -4px; font: 20px/1 var(--serif); color: var(--rust); background: #faf6ea; padding: 2px; }
+.thought-look { left: 5%; top: 6.45%; transform: rotate(-2deg); }
+.thought-try { left: 56.67%; top: 6.45%; transform: rotate(2deg); }
+.thought-check { left: 56.67%; top: 38.71%; border-color: var(--rust); background: #eee0d1; transform: rotate(-2deg); border-radius: 10px 4px 13px 3px; }
+.thought-fix { left: 5%; top: 38.71%; transform: rotate(1deg); }
+.thought-automate { left: 5%; top: 70.97%; background: #efd69a; transform: rotate(-2deg); }
+.thought-verify { left: 56.67%; top: 70.97%; background: #e1e8d9; transform: rotate(1deg); }
+.branch-label { position: absolute; background: #faf6ea; padding: 3px 5px; font: bold 9px var(--mono); }
+.branch-yes { left: 45%; top: 43%; color: var(--rust); }
+.branch-no { left: 49%; top: 60%; color: var(--teal); }
+.retry-label { position: absolute; left: 35%; top: 27%; font: italic 11px var(--serif); color: var(--rust); }
+.return-label { position: absolute; right: -9px; top: 58%; writing-mode: vertical-rl; color: var(--rust); font: italic 10px var(--serif); }
+.sketch-note { margin: -9px 0 10px; text-align: center; font: italic 14px/1.5 var(--serif); color: var(--rust); transform: rotate(-2deg); }
+.sketch-description { font: 9px/1.9 var(--mono); color: #62685a; margin: 13px 2px 0; }
+.sketch-ready .thought-route { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.sketch-ready .is-drawn .thought-route { animation: sketch-route-in .8s ease forwards; animation-delay: var(--delay,0s); }
+@keyframes sketch-route-in { to { stroke-dashoffset: 0; } }
+@media (max-width: 1050px) and (min-width: 761px) {
+  .profile-layout { grid-template-columns: 1fr 1.1fr; gap: 30px; }
+  .thought-node { padding: 7px; gap: 5px; }
+  .thought-node strong { font-size: 12px; }
+}
+@media (max-width: 760px) {
+  .personal-sketch { padding-inline: 8px; margin-inline: -7px; }
+  .brain-card h3 { font-size: 25px; }
+  .thought-board { min-height: 450px; }
+  .thought-node { padding: 7px; gap: 5px; }
+  .thought-node strong { font-size: 12px; }
+  .thought-phase { font-size: 6px; }
+  .thought-icon { font-size: 17px; }
+  .retry-label { font-size: 10px; left: 33%; }
+  .branch-label { font-size: 8px; }
+  .sketch-title { font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sketch-ready .thought-route { stroke-dashoffset: 0 !important; }
+}
+.profile-layout > * { min-width: 0; }
+.thought-board { aspect-ratio: auto; height: 470px; min-height: 0; }
+@media (max-width: 760px) {
+  .thought-board { height: 450px; min-height: 0; }
+}

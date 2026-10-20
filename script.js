@@ -128,8 +128,8 @@ const translations = {
     "es": "Algunas cosas en las que estuve trabajando"
   },
   "t33": {
-    "en": "MY CI/CD, APPARENTLY",
-    "es": "MI CI/CD, APARENTEMENTE"
+    "en": "PIPELINES & THOUGHT PROCESSES",
+    "es": "PIPELINES Y PROCESOS MENTALES"
   },
   "t40": {
     "en": "02 / THINGS I GET INTO",
@@ -300,32 +300,16 @@ const translations = {
     "es": "volver arriba ↑"
   },
   "loopHeading": {
-    "en": "How my brain works",
-    "es": "Cómo funciona mi cabeza"
+    "en": "Two kinds of CI/CD.",
+    "es": "Dos formas de hacer CI/CD."
   },
   "classicLabel": {
-    "en": "THE CLASSIC",
-    "es": "EL CLÁSICO"
+    "en": "01 / THE CLASSIC CI/CD · DEVOPS CYCLE",
+    "es": "01 / EL CICLO CLÁSICO DE CI/CD · DEVOPS"
   },
   "mineLabel": {
-    "en": "MINE",
-    "es": "EL MÍO"
-  },
-  "loopAsk": {
-    "en": "Wait. Why?",
-    "es": "Espera. ¿Por qué?"
-  },
-  "loopInvestigate": {
-    "en": "Let me check.",
-    "es": "Déjame ver."
-  },
-  "loopConnect": {
-    "en": "Now it makes sense.",
-    "es": "Ahora tiene sentido."
-  },
-  "loopAutomate": {
-    "en": "Can I automate it?",
-    "es": "¿Lo puedo automatizar?"
+    "en": "02 / THE CI/CD IN MY HEAD",
+    "es": "02 / EL CI/CD EN MI CABEZA"
   },
   "stageCode": {
     "en": "Code & automate",
@@ -370,6 +354,78 @@ const translations = {
   "toolExplore": {
     "en": "For experiments",
     "es": "Para experimentar"
+  },
+  "sketchLookPhase": {
+    "en": "01 / INSPECT",
+    "es": "01 / ENTENDER"
+  },
+  "sketchLook": {
+    "en": "What does this do?",
+    "es": "¿Y esto qué hace?"
+  },
+  "sketchTryPhase": {
+    "en": "02 / EXPERIMENT",
+    "es": "02 / PROBAR"
+  },
+  "sketchTry": {
+    "en": "Let’s try it.",
+    "es": "Voy a probarlo."
+  },
+  "sketchCheckPhase": {
+    "en": "03 / CHECK",
+    "es": "03 / REVISAR"
+  },
+  "sketchCheck": {
+    "en": "Did it break?",
+    "es": "¿Se rompió?"
+  },
+  "sketchFixPhase": {
+    "en": "04 / DEBUG",
+    "es": "04 / DEPURAR"
+  },
+  "sketchFix": {
+    "en": "Logs. Fix. Try again.",
+    "es": "Logs. Arreglar. Volver a probar."
+  },
+  "sketchAutomatePhase": {
+    "en": "05 / AUTOMATE",
+    "es": "05 / AUTOMATIZAR"
+  },
+  "sketchAutomate": {
+    "en": "Can I automate it?",
+    "es": "¿Lo puedo automatizar?"
+  },
+  "sketchVerifyPhase": {
+    "en": "06 / VERIFY",
+    "es": "06 / VERIFICAR"
+  },
+  "sketchVerify": {
+    "en": "Does it run without me?",
+    "es": "¿Funciona sin mí?"
+  },
+  "sketchYes": {
+    "en": "YES",
+    "es": "SÍ"
+  },
+  "sketchNo": {
+    "en": "NO",
+    "es": "NO"
+  },
+  "sketchRetry": {
+    "en": "try again ↗",
+    "es": "volver a probar ↗"
+  },
+  "sketchStill": {
+    "en": "not yet",
+    "es": "todavía no"
+  },
+  "sketchNote": {
+    "en": "Check before calling it done.",
+    "es": "Comprobar antes de darlo por terminado."
+  },
+  "sketchDescription": {
+    "en": "If it breaks, check the logs, fix it, and retry. If it works, automate it and verify it runs without manual steps.",
+    "es": "Si se rompe, revisar los logs, arreglar y volver a probar. Si funciona, automatizar y verificar que no necesite pasos manuales."
   }
 };
 translations.stickerThinking = { en: "THINKING", es: "PENSANDO" };
@@ -508,3 +564,16 @@ try {
 }
 setLanguage(language);
 languageSwitch.hidden = false;
+
+// Draw the sketch once it enters view; keep the diagram complete without motion or JavaScript.
+const personalSketch = document.querySelector('.personal-sketch');
+if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  document.documentElement.classList.add('sketch-ready');
+  const sketchObserver = new IntersectionObserver((entries) => {
+    if (entries.some((entry) => entry.isIntersecting)) {
+      personalSketch.classList.add('is-drawn');
+      sketchObserver.disconnect();
+    }
+  }, { threshold: 0.15 });
+  sketchObserver.observe(personalSketch);
+}
