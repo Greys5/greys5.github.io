@@ -335,3 +335,45 @@ html[lang="es"] .scene-stamp { font-size: 10px; }
 .meme-bar button { border: 0; background: transparent; width: 28px; height: 28px; font: 21px/1 var(--sans); padding: 0; }
 .latino-meme img { width: 100%; height: auto; display: block; }
 @keyframes meme-arrives { from { opacity: 0; transform: translateY(-5px) rotate(-2deg); } to { opacity: 1; transform: none; } }
+
+/* Delivery-lifecycle toolbox: names stay readable beside the real tool marks. */
+.toolbox-heading { display: flex; justify-content: space-between; align-items: end; gap: 25px; padding: 35px 0 30px; }
+.toolbox-flow { font: 9px/1.7 var(--mono); letter-spacing: .5px; color: var(--muted); margin: 20px 0 0; }
+.cloud-context { flex-shrink: 0; border: 1px solid var(--line); padding: 13px 17px; background: #faf6ea; }
+.cloud-context > span { font: 8px var(--mono); color: var(--muted); }
+.cloud-context > div { display: flex; gap: 12px; align-items: center; margin-top: 13px; }
+.cloud-context img { object-fit: contain; }
+.cloud-context strong { font: bold 14px var(--mono); }
+.delivery-stages { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--ink); }
+.delivery-stage { position: relative; display: grid; grid-template-columns: 235px 1fr; align-items: center; gap: 25px; border-bottom: 1px solid var(--line); padding: 24px 0; }
+.stage-heading { display: flex; align-items: center; gap: 14px; }
+.stage-number { font: 10px var(--mono); color: var(--rust); background: var(--paper); border: 1px solid var(--line); border-radius: 50%; width: 29px; height: 29px; display: grid; place-items: center; flex-shrink: 0; position: relative; z-index: 1; }
+.delivery-stage:not(:last-child)::after { content: ''; position: absolute; left: 14px; top: 50%; bottom: -50%; border-left: 1px dashed var(--line); pointer-events: none; }
+.stage-heading h3 { margin: 0; font: 12px/1.5 var(--mono); }
+.tool-chips { list-style: none; display: flex; flex-wrap: wrap; gap: 9px; padding: 0; margin: 0; }
+.tool-chips > li { display: inline-flex; align-items: center; gap: 9px; padding: 9px 12px; border: 1px solid #c8c3af; background: #faf6ea; font: 11px/1.5 var(--mono); min-height: 46px; }
+.tool-chips img { display: block; width: 26px; height: 26px; object-fit: contain; flex-shrink: 0; }
+.creative-tools { display: flex; gap: 25px; align-items: center; justify-content: space-between; padding-top: 24px; }
+.creative-tools h3 { margin: 0; color: var(--muted); font: italic 19px var(--serif); }
+@media (max-width: 1050px) {
+  .delivery-stage { grid-template-columns: 190px 1fr; gap: 20px; }
+  .tool-chips > li { padding: 8px 10px; }
+}
+@media (max-width: 760px) {
+  .toolbox-heading { padding-top: 27px; align-items: start; }
+  .cloud-context { padding: 9px; }
+  .cloud-context > span { font-size: 6px; }
+  .cloud-context > div { gap: 6px; margin-top: 10px; }
+  .cloud-context img { width: 35px; height: 25px; }
+  .cloud-context strong { font-size: 11px; }
+  .toolbox-heading h2 { font-size: 32px; }
+  .toolbox-flow { font-size: 8px; max-width: 210px; }
+  .delivery-stage { grid-template-columns: 1fr; gap: 15px; padding: 21px 0 21px 0; }
+  .delivery-stage:not(:last-child)::after { display: none; }
+  .stage-heading { gap: 11px; }
+  .stage-heading h3 { font-size: 12px; }
+  .tool-chips { gap: 8px; }
+  .tool-chips > li { font-size: 10px; padding: 8px 9px; gap: 7px; }
+  .tool-chips img { width: 23px; height: 23px; }
+  .creative-tools { align-items: start; flex-direction: column; gap: 15px; }
+}

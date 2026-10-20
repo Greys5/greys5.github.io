@@ -34,3 +34,7 @@ The header EN/ES switch translates visible copy, questions, accessibility labels
 ## Language-switch Easter egg
 
 An explicit switch into Spanish shows a 210px JLo “mi gente latino” still-image popup for 3.5 seconds. Switching back, resizing, Escape, or the close button dismisses it. Restoring a saved language does not show it. The source is [Tenor’s Jlo Mi meme](https://tenor.com/view/jlo-mi-gente-latino-latina-gif-18597397); the downloaded thumbnail is a single-frame GIF, hosted locally with no audio or third-party runtime request.
+
+## Toolbox organization and icons
+
+Tools are grouped by delivery-lifecycle activity. AWS is the cloud platform; its individual services appear by purpose. Networking and Web Audio use original concept symbols. Logos are hosted locally; icon provenance is listed in `assets/tools/SOURCES.md`, with upstream license notices alongside the assets. AWS images are used unchanged.

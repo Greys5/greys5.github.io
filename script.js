@@ -251,22 +251,6 @@ const translations = {
     "en": "Depends on the problem.",
     "es": "Depende del problema."
   },
-  "t70": {
-    "en": "BUILD & RUN",
-    "es": "CONSTRUIR Y OPERAR"
-  },
-  "t71": {
-    "en": "DEFINE & DELIVER",
-    "es": "DEFINIR Y DESPLEGAR"
-  },
-  "t72": {
-    "en": "SECURE & OBSERVE",
-    "es": "PROTEGER Y OBSERVAR"
-  },
-  "t73": {
-    "en": "TRY SOMETHING ELSE",
-    "es": "PROBAR ALGO DISTINTO"
-  },
   "t74": {
     "en": "04 / THE BLOG",
     "es": "04 / EL BLOG"
@@ -343,13 +327,49 @@ const translations = {
     "en": "Can I automate it?",
     "es": "¿Lo puedo automatizar?"
   },
-  "toolTest": {
-    "en": "SCAN & TEST",
-    "es": "ESCANEAR Y PROBAR"
+  "stageCode": {
+    "en": "Code & automate",
+    "es": "Programar y automatizar"
   },
-  "toolScripts": {
-    "en": "SCRIPT & AUTOMATE",
-    "es": "SCRIPTS Y AUTOMATIZACIÓN"
+  "stageDefine": {
+    "en": "Define & package",
+    "es": "Definir y empaquetar"
+  },
+  "stageTest": {
+    "en": "Test & scan",
+    "es": "Probar y analizar"
+  },
+  "stageDeliver": {
+    "en": "Build & deliver",
+    "es": "Integrar y desplegar"
+  },
+  "stageRun": {
+    "en": "Run & orchestrate",
+    "es": "Ejecutar y orquestar"
+  },
+  "stageConnect": {
+    "en": "Connect & store",
+    "es": "Conectar y almacenar"
+  },
+  "stageProtect": {
+    "en": "Protect & observe",
+    "es": "Proteger y observar"
+  },
+  "toolLifecycle": {
+    "en": "FROM CODE TO RUNNING SYSTEMS",
+    "es": "DEL CÓDIGO A LOS SISTEMAS EN MARCHA"
+  },
+  "toolCloud": {
+    "en": "CLOUD PLATFORM",
+    "es": "PLATAFORMA CLOUD"
+  },
+  "toolNetworking": {
+    "en": "Networking",
+    "es": "Redes"
+  },
+  "toolExplore": {
+    "en": "For experiments",
+    "es": "Para experimentar"
   }
 };
 translations.stickerThinking = { en: "THINKING", es: "PENSANDO" };
