@@ -136,12 +136,12 @@ const translations = {
     "es": "02 / COSAS EN LAS QUE ME METO"
   },
   "t41": {
-    "en": "Things I got into.",
-    "es": "Cosas en las que me metí."
+    "en": "Personal projects I built.",
+    "es": "Proyectos personales que hice."
   },
   "t42": {
-    "en": "Some became projects.",
-    "es": "Algunas terminaron en proyectos."
+    "en": "Just because.",
+    "es": "Just because."
   },
   "t43": {
     "en": "Personal projects and platform work.",
@@ -236,16 +236,16 @@ const translations = {
     "es": "¿Cómo haces más fácil entender el gasto de AWS sin modificar recursos? Costellation reúne inventario de cuentas, filtros de costos, cobertura de tags y exportaciones CSV en una interfaz local. Usa Backstage con un backend en FastAPI."
   },
   "t66": {
-    "en": "Platform work is described at a high level. Internal details stay internal.",
-    "es": "El trabajo en plataformas está contado a grandes rasgos. Los detalles internos se mantienen privados."
+    "en": "Platform work is described at a high level. What happens locally stays local.",
+    "es": "El trabajo en plataformas está contado a grandes rasgos. Lo que sucede en local se queda en local."
   },
   "t67": {
     "en": "03 / A FEW FAMILIAR TOOLS",
     "es": "03 / ALGUNAS HERRAMIENTAS CONOCIDAS"
   },
   "t68": {
-    "en": "What I work with.",
-    "es": "Con qué trabajo."
+    "en": "What do I work with?",
+    "es": "¿Con qué trabajo?"
   },
   "t69": {
     "en": "Depends on the problem.",
@@ -292,8 +292,8 @@ const translations = {
     "es": "Encuéntrame en GitHub"
   },
   "t85": {
-    "en": "MADE IN ARGENTINA. STILL FIGURING THINGS OUT.",
-    "es": "HECHO EN ARGENTINA. TODAVÍA AVERIGUANDO COSAS."
+    "en": "MADE BY MY TRUSTED AI.",
+    "es": "HECHO POR MI IA DE CONFIANZA."
   },
   "t86": {
     "en": "back up ↑",
