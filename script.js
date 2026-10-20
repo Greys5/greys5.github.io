@@ -4,8 +4,8 @@ const translations = {
     "es": "Saltar al contenido"
   },
   "t1": {
-    "en": "PLATFORMS, QUESTIONS & OTHER STUFF",
-    "es": "PLATAFORMAS, PREGUNTAS Y OTRAS COSAS"
+    "en": "PLATFORMS, AUTOMATION & OTHER STUFF",
+    "es": "PLATAFORMAS, AUTOMATIZACIÓN Y OTRAS COSAS"
   },
   "t2": {
     "en": "the human",
@@ -20,8 +20,8 @@ const translations = {
     "es": "el blog"
   },
   "t5": {
-    "en": "IF YOU ALSO ASK TOO MANY QUESTIONS, HI.",
-    "es": "SI VOS TAMBIÉN PREGUNTÁS DE TODO, HOLA."
+    "en": "BUILDING, FIXING, LEARNING AS I GO.",
+    "es": "ARMANDO, ARREGLANDO Y APRENDIENDO EN EL CAMINO."
   },
   "t6": {
     "en": "Wait. Why?",
@@ -36,8 +36,8 @@ const translations = {
     "es": "Hola, soy"
   },
   "t9": {
-    "en": "I build platforms, automate stuff, and ask a lot of questions. Especially when the answer is “we’ve always done it this way.”",
-    "es": "Armo plataformas, automatizo cosas y hago bastantes preguntas. Sobre todo cuando la respuesta es «siempre se hizo así»."
+    "en": "I build platforms and automate the repetitive stuff. I like knowing what’s going on under the hood.",
+    "es": "Armo plataformas y automatizo lo repetitivo. Me gusta entender qué está pasando por dentro."
   },
   "t10": {
     "en": "Here you’ll find what I work on, what I’m trying,",
@@ -56,32 +56,28 @@ const translations = {
     "es": "Seguramente ya estoy pensando cómo automatizar esto."
   },
   "t14": {
-    "en": "WAIT.",
-    "es": "PARÁ."
+    "en": "WORK",
+    "es": "EN"
   },
   "t15": {
-    "en": "WHY DOES",
-    "es": "¿POR QUÉ"
+    "en": "IN",
+    "es": "CONSTRUCCIÓN"
   },
   "t16": {
-    "en": "THAT WORK? ↗",
-    "es": "FUNCIONA? ↗"
+    "en": "PROGRESS ↗",
+    "es": "SIEMPRE ↗"
   },
   "t17": {
     "en": "CURRENT THOUGHT",
     "es": "PENSAMIENTO ACTUAL"
   },
   "t18": {
-    "en": "another question",
-    "es": "otra pregunta"
+    "en": "switch it up",
+    "es": "cambiar"
   },
   "t19": {
     "en": "YEP, THAT’S ME.",
     "es": "SÍ, SOY YO."
-  },
-  "t20": {
-    "en": "ONE MORE QUESTION.",
-    "es": "UNA PREGUNTA MÁS."
   },
   "t21": {
     "en": "PLATFORM ENGINEERING",
@@ -96,8 +92,8 @@ const translations = {
     "es": "SEGURIDAD"
   },
   "t24": {
-    "en": "WAIT, ONE MORE THING",
-    "es": "PARÁ, UNA COSA MÁS"
+    "en": "ALWAYS LEARNING",
+    "es": "SIEMPRE APRENDIENDO"
   },
   "t25": {
     "en": "01 / THE HUMAN",
@@ -134,30 +130,6 @@ const translations = {
   "t33": {
     "en": "MY CI/CD, APPARENTLY",
     "es": "MI CI/CD, APARENTEMENTE"
-  },
-  "t34": {
-    "en": "How my brain works",
-    "es": "Cómo funciona mi cabeza"
-  },
-  "t35": {
-    "en": "Ask the annoying question.",
-    "es": "Hacer la pregunta incómoda."
-  },
-  "t36": {
-    "en": "Follow the evidence.",
-    "es": "Seguir la evidencia."
-  },
-  "t37": {
-    "en": "Connect the pieces.",
-    "es": "Conectar las piezas."
-  },
-  "t38": {
-    "en": "Can I automate it?",
-    "es": "¿Lo puedo automatizar?"
-  },
-  "t39": {
-    "en": "Especially that last one.",
-    "es": "Sobre todo esa última."
   },
   "t40": {
     "en": "02 / THINGS I GET INTO",
@@ -196,8 +168,8 @@ const translations = {
     "es": "Simulaciones en el navegador"
   },
   "t49": {
-    "en": "The question behind it",
-    "es": "La pregunta detrás del proyecto"
+    "en": "A closer look",
+    "es": "Más del proyecto"
   },
   "t50": {
     "en": "How do you help someone understand a system, rather than memorize a command? Feedback on wrong and incomplete commands is part of the lesson.",
@@ -331,10 +303,6 @@ const translations = {
     "en": "Anyway. That’s me.",
     "es": "En fin. Esa soy yo."
   },
-  "t83": {
-    "en": "Probably with another question.",
-    "es": "Seguramente con otra pregunta."
-  },
   "t84": {
     "en": "Find me on GitHub",
     "es": "Encontrame en GitHub"
@@ -354,10 +322,6 @@ const translations = {
   "classicLabel": {
     "en": "THE CLASSIC",
     "es": "EL CLÁSICO"
-  },
-  "classicLoop": {
-    "en": "PLAN → BUILD → SHIP → REPEAT",
-    "es": "PLANEAR → HACER → PUBLICAR → REPETIR"
   },
   "mineLabel": {
     "en": "MINE",
@@ -379,9 +343,13 @@ const translations = {
     "en": "Can I automate it?",
     "es": "¿Lo puedo automatizar?"
   },
-  "loopAgain": {
-    "en": "...and then I have another question.",
-    "es": "...y después se me ocurre otra pregunta."
+  "toolTest": {
+    "en": "SCAN & TEST",
+    "es": "ESCANEAR Y PROBAR"
+  },
+  "toolScripts": {
+    "en": "SCRIPT & AUTOMATE",
+    "es": "SCRIPTS Y AUTOMATIZACIÓN"
   }
 };
 translations.stickerThinking = { en: "THINKING", es: "PENSANDO" };
@@ -409,8 +377,8 @@ const translatedAttributes = {
   },
   "question": {
     "attr": "aria-label",
-    "en": "Show another curious question",
-    "es": "Mostrar otra pregunta curiosa"
+    "en": "Show another thought",
+    "es": "Mostrar otro pensamiento"
   },
   "character": {
     "attr": "alt",

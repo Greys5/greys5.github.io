@@ -310,3 +310,8 @@ html[lang="es"] .scene-stamp { font-size: 10px; }
 .classic-diagram .classic-cross-out .cross-out { stroke: #812b23; stroke-width: 5; stroke-linecap: round; opacity: .95; }
 .classic-loop .diagram-credit { font: 8px/1.6 var(--mono); margin-top: 10px; }
 .diagram-credit a { text-decoration: underline; text-underline-offset: 2px; }
+
+.footer-brand { font-size: 24px; letter-spacing: -.8px; }
+@media (max-width: 760px) {
+  .footer-brand { font-size: 22px; }
+}
