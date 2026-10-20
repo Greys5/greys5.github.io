@@ -244,24 +244,24 @@ const translations = {
     "es": "¿Qué controlador gestiona esta configuración? ¿Qué muestran realmente los logs? Una hipótesis sirve para empezar. Una prueba controlada te dice si se sostiene."
   },
   "t61": {
-    "en": "PERSONAL / CREATIVE CODING",
-    "es": "PERSONAL / CÓDIGO CREATIVO"
+    "en": "PERSONAL / CLOUD COSTS · POC",
+    "es": "PERSONAL / COSTOS CLOUD · POC"
   },
   "t62": {
     "en": "FIELD NOTE / 004",
     "es": "NOTA / 004"
   },
   "t63": {
-    "en": "What if sound moved?",
-    "es": "¿Y si el sonido se moviera?"
+    "en": "Costellation",
+    "es": "Costellation"
   },
   "t64": {
-    "en": "Interactive visuals and audio-driven experiments. Connecting microphone input to motion, and turning the browser into something you can play with.",
-    "es": "Visuales interactivos y experimentos con audio. Conectar la entrada del micrófono con el movimiento y convertir el navegador en algo con lo que podés jugar."
+    "en": "Where’s the AWS bill going? A personal, read-only dashboard to explore costs across accounts and services, check cost allocation tags, and export reports. Still a proof of concept, with validation in progress.",
+    "es": "¿En qué se está yendo la factura de AWS? Un dashboard personal de solo lectura para explorar costos por cuenta y servicio, revisar tags de asignación de costos y exportar reportes. Sigue como prueba de concepto; todavía lo estoy validando."
   },
   "t65": {
-    "en": "How does sound become motion? The interesting work is in the mapping—and in what happens when a technical input starts to feel expressive.",
-    "es": "¿Cómo se convierte el sonido en movimiento? Lo interesante está en esa conexión y en lo que pasa cuando una entrada técnica empieza a sentirse expresiva."
+    "en": "How do you make AWS spending easier to understand without changing cloud resources? Costellation brings account inventory, cost filters, tag coverage, and CSV exports into one local interface. Built on Backstage with a FastAPI backend.",
+    "es": "¿Cómo hacés más fácil entender el gasto de AWS sin modificar recursos? Costellation reúne inventario de cuentas, filtros de costos, cobertura de tags y exportaciones CSV en una interfaz local. Usa Backstage con un backend en FastAPI."
   },
   "t66": {
     "en": "Platform work is described at a high level. Internal details stay internal.",

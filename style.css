@@ -94,7 +94,7 @@ h2 em { color: var(--teal); font-weight: normal; }
 .project-kubi { border-top: 5px solid var(--teal); }
 .project-identity { border-top: 5px solid var(--rust); }
 .project-platform { border-top: 5px solid #b78b28; }
-.project-creative { border-top: 5px solid #6c6e8f; }
+.project-costellation { border-top: 5px solid #6c6e8f; }
 details { margin-top: 23px; border-top: 1px dashed var(--line); }
 summary { display: flex; justify-content: space-between; align-items: center; list-style: none; font: 10px var(--mono); padding: 14px 0 2px; cursor: pointer; }
 summary::-webkit-details-marker { display: none; }
