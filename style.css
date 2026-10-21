@@ -491,3 +491,22 @@ html[lang="es"] .scene-stamp { font-size: 10px; }
  .thought-cycle .thought-node strong { font-size:11px; }
  .thought-optional strong { font-size:11px; }
 }
+
+/* Phase notes and tools are deliberately separate reading levels. */
+.phase-description { margin:0; font:14px/1.65 var(--sans); color:var(--muted); max-width:30ch; }
+.shared-tools { margin-top:35px; padding-top:25px; border-top:1px solid #c8c3af; }
+.shared-tools h3 { font:10px var(--mono); letter-spacing:.08em; margin:0 0 20px; color:var(--teal); }
+.shared-tools .tool-chips { gap:16px 24px; }
+.shared-tools .tool-chips > li { border:0; background:none; padding:0; min-height:24px; gap:7px; font:11px/1.5 var(--mono); }
+.shared-tools .tool-chips img { width:16px; height:16px; }
+.gcp-mark { color:#4285f4; font-size:20px; line-height:16px; }
+.ring-pencil-echo { transform:translate(2px,-2px); opacity:.22; stroke-dasharray:none; }
+.thought-cycle .ring-pencil { stroke-width:1.7; opacity:.55; }
+@media(max-width:600px) { .shared-tools .tool-chips { gap:14px 18px; } .phase-description { max-width:none; } }
+.thought-optional strong { overflow-wrap:anywhere; }
+@media(max-width:600px) { .lifecycle-stops .lifecycle-stop::after { right:auto;left:-19px;top:auto;bottom:-29px;content:'↓'; } .lifecycle-stops .stop-6::after { content:none; } }
+@media(max-width:600px) { .lifecycle-stops .lifecycle-stop:not(.stop-3):not(.stop-6)::after { right:auto;left:-19px;top:auto;bottom:-29px;content:'↓'; } }
+.thought-optional { left:30%;width:40%; }
+.thought-optional strong { overflow-wrap:normal; font-size:11px; }
+@media(min-width:601px) { .lifecycle-stops .lifecycle-stop.stop-4::after,.lifecycle-stops .lifecycle-stop.stop-5::after { content:'←';left:-37px;right:auto; } }
+@media(min-width:601px) and (max-width:1050px) { .lifecycle-stops .lifecycle-stop.stop-4::after,.lifecycle-stops .lifecycle-stop.stop-5::after { left:-25px; } }

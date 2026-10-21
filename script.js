@@ -29,7 +29,7 @@ const translations = {
   },
   "t7": {
     "en": "Let me check.",
-    "es": "Déjame ver."
+    "es": "A veeer..."
   },
   "t8": {
     "en": "Hi, I’m",
@@ -37,7 +37,7 @@ const translations = {
   },
   "t9": {
     "en": "I build platforms and make them easier to operate. I like knowing what’s going on under the hood.",
-    "es": "Armo plataformas y busco que sean más fáciles de operar. Me gusta entender qué está pasando por dentro."
+    "es": "Construyo plataformas y busco que sean más fáciles de gestionar. Me gusta entender qué está pasando por dentro."
   },
   "t10": {
     "en": "Here you’ll find what I work on, what I’m trying,",
@@ -65,7 +65,7 @@ const translations = {
   },
   "t16": {
     "en": "PROGRESS ↗",
-    "es": "SIEMPRE ↗"
+    "es": "... ↗"
   },
   "t17": {
     "en": "CURRENT THOUGHT",
@@ -196,24 +196,24 @@ const translations = {
     "es": "Que cargue la página de login no demuestra que la autenticación funcione. ¿Cómo se conectan la configuración de acceso, los flujos reales y las señales de monitoreo?"
   },
   "t56": {
-    "en": "PLATFORM / OPERATIONS",
-    "es": "PLATAFORMAS / OPERACIONES"
+    "en": "PERSONAL / SECURITY",
+    "es": "PERSONAL / SEGURIDAD"
   },
   "t57": {
     "en": "FIELD NOTE / 003",
     "es": "NOTA / 003"
   },
   "t58": {
-    "en": "Follow the signals.",
-    "es": "Sigue las señales."
+    "en": "Gitcurity.",
+    "es": "Gitcurity."
   },
   "t59": {
-    "en": "Kubernetes operations, declarative delivery, and observability. Understanding what happens when scaling, controllers, and application behavior meet.",
-    "es": "Operaciones en Kubernetes, despliegues declarativos y observabilidad. Entender qué pasa cuando se cruzan el escalado, los controladores y el comportamiento de la aplicación."
+    "en": "A personal project to explore security checks around Git and delivery pipelines. Still testing it, still figuring things out.",
+    "es": "Un proyecto personal para explorar controles de seguridad alrededor de Git y los pipelines. Todavía en pruebas, todavía viendo qué funciona."
   },
   "t60": {
-    "en": "Which controller owns this setting? What do the logs actually show? A hypothesis is a useful starting point. A controlled check tells you whether it holds.",
-    "es": "¿Qué controlador gestiona esta configuración? ¿Qué muestran realmente los logs? Una hipótesis sirve para empezar. Una prueba controlada te dice si se sostiene."
+    "en": "Work in progress. The next step is to keep testing before calling anything finished.",
+    "es": "En proceso. Lo siguiente es seguir probándolo antes de dar nada por terminado."
   },
   "t61": {
     "en": "PERSONAL / CLOUD COSTS · POC",
@@ -400,24 +400,52 @@ const translations = {
     "es": "Dejarlo corriendo."
   },
   "cycleWatch": {
-    "en": "Keep it safe. Watch it.",
-    "es": "Cuidarlo y mirar las señales."
+    "en": "Check access, security and logs.",
+    "es": "Revisar accesos, seguridad y logs."
   },
   "cycleRepeat": {
     "en": "Review, adjust, repeat.",
     "es": "Revisar, ajustar, repetir."
   },
   "sketchObservePhase": {
-    "en": "06 / OBSERVE",
-    "es": "06 / OBSERVAR"
+    "en": "06 / REVISIT",
+    "es": "06 / VOLVER A MIRAR"
   },
   "sketchObserve": {
-    "en": "Let it run. Watch it.",
-    "es": "Dejarlo corriendo y observar."
+    "en": "What would I change?",
+    "es": "¿Qué cambiaría?"
   },
   "sketchOptional": {
     "en": "SOMETIMES",
     "es": "A VECES"
+  },
+  "phasePlan": {
+    "en": "Choose the cloud, map dependencies and work out what needs to change.",
+    "es": "Elegir la nube, revisar dependencias y entender qué hay que cambiar."
+  },
+  "phaseBase": {
+    "en": "Set up infrastructure, containers and configuration.",
+    "es": "Armar infraestructura, contenedores y configuración."
+  },
+  "phaseTest": {
+    "en": "Test changes and check for vulnerabilities before moving on.",
+    "es": "Probar los cambios y revisar vulnerabilidades antes de seguir."
+  },
+  "phaseShip": {
+    "en": "Run the pipeline, review the result and deploy.",
+    "es": "Ejecutar el pipeline, revisar el resultado y desplegar."
+  },
+  "phaseRun": {
+    "en": "Keep workloads running and adjust capacity when needed.",
+    "es": "Mantener las cargas funcionando y ajustar capacidad cuando haga falta."
+  },
+  "phaseWatch": {
+    "en": "Review permissions, investigate errors and check what needs fixing.",
+    "es": "Revisar permisos, investigar errores y ver qué necesita un arreglo."
+  },
+  "poolLabel": {
+    "en": "THE TOOL POOL",
+    "es": "LAS TOOLS"
   }
 };
 translations.stickerThinking = { en: "THINKING", es: "PENSANDO" };
